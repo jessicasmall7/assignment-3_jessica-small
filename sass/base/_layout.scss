@@ -1,0 +1,83 @@
+.body {
+  padding: 15px;
+  font-family: $primary-font;
+  background-color: $grey-background;
+}
+
+.header{
+  background-color: black;
+  padding-left: 7%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.nav{
+  background-color: $grey1;
+  padding-left: 7%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.main{
+    padding-left: 7%;
+    width: 80%;
+    float: left;
+    height: 90%;
+}
+
+.aside{
+  background-color: white;
+  float: left;
+  width: 50%;
+  padding: 2%;
+}
+
+.section {
+  float: left;
+  width: 50%;
+  padding: 7%;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  padding-left: 7%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+  left: 15px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 675px) {
+    .body {
+        background-color: $grey-background-2;
+    }
+
+    .aside{
+      background-color: white;
+      height: 500px;
+      position: absolute;
+      right: 15px;
+      border: 0;
+      width: 20%;
+      padding: 2%;
+    }
+}
+
+
+@media screen and (min-width: 999px) {
+    .body {
+        background-color: $grey-background-3;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .body {
+        background-color: $grey-background-4;
+    }
+}
