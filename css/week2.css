@@ -1,4 +1,4 @@
-/* TEXT STYLING */
+/* TEXT STYLING
 
 .nav a{
   color: white;
@@ -41,7 +41,7 @@ p {
   color: #303030;
 }
 
-/* PAGE STYLING */
+
 .body {
   padding: 15px;
   font-family: 'Karla', sans-serif;
@@ -95,7 +95,7 @@ p {
 }
 
 
-/* MEDIA QUERIES */
+
 
 @media screen and (min-width: 675px) {
     .body {
@@ -126,3 +126,5 @@ p {
         background-color: #f2f2f2;
     }
 }
+
+*/
